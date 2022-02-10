@@ -6,35 +6,33 @@
 }
 
 body {
-    background: #2f2325;
+    background: #28587B;
     font-family: 'Concert One', serif;
 }
 
 .container {
-    background: #483636;
+    background: #9FB4C7;
     margin: 4rem auto;
     border-radius: 1rem;
-    border: 2px solid #fff2e7;
+    border: 2px solid #7F7CAF;
     width: 60%;
     height: 25rem;
 }
 
 .name {
-    color: #fff2e7;
+    color: #7F7CAF;
     padding: 2rem 6rem;
 }
 
 .nameInput {
-    color: #fff2e7;
+    color: #7F7CAF;
     font-size: 20px;
     padding: 1rem 6rem;
 }
 
-
 .nameUser, .ageUser, .skills {
     height: 2rem;
     background: #fff2e7b3;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0,25);
     border-radius: .5rem;
 }
 
@@ -52,7 +50,11 @@ body {
     text-align: center; 
     margin-left: 9rem;
     cursor: pointer;
-} 
+}
+
+.register:hover {
+    background-color: #7F7CAF;
+}
 
 .vertical-line{
     position: absolute;
@@ -61,32 +63,29 @@ body {
     border-left: 3px solid #fff2E7;
 }
 
-.res {
-    position: absolute;
-}
-
 .result {
-    position: relative;
-    top: -19rem;
-    left: 38rem;
+    transform: translate(10rem, -19rem);
     text-align: center;
-    color: #fff2E7;
+    color: #7F7CAF;
 }
 
 .text {
     display: flex;
     position: relative;
     font-size: 23px;
-    padding: .2rem;
-    top: -16.5rem;
-    left: 40rem;
+    justify-content: end;
+    line-height: 2em;
 }
 
 .nameText, .ageText, .skillsText {
     color: #97D4D9;
+    transform: translate(0, -17rem);
+    /*margin-top: -17rem;*/
 }
 
 .resultName, .resultAge, .resultSkills {
-    color: #EFC764;
+    color: #EFC88B;
     padding-left: 1rem;
+    width: 30%;
+    transform: translate(0, -17rem);
 }
