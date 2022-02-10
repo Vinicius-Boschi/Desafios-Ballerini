@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #2f2325;
+    font-family: 'Concert One', serif;
+}
+
+.container {
+    background: #483636;
+    margin: 4rem auto;
+    border-radius: 1rem;
+    border: 2px solid #fff2e7;
+    width: 60%;
+    height: 25rem;
+}
+
+.name {
+    color: #fff2e7;
+    padding: 2rem 6rem;
+}
+
+.nameInput {
+    color: #fff2e7;
+    font-size: 20px;
+    padding: 1rem 6rem;
+}
+
+
+.nameUser, .ageUser, .skills {
+    height: 2rem;
+    background: #fff2e7b3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0,25);
+    border-radius: .5rem;
+}
+
+.register {
+    background-color: #fff2e7;
+    border: #000;
+    border-radius: .5rem;
+    box-shadow: 0px 4px 4px #00000040;
+    font-weight: bold;
+    font-family: 'Concert One', serif;
+    font-size: 20px;
+    width: 11rem;
+    height: 2rem;
+    align-items: center;
+    text-align: center; 
+    margin-left: 9rem;
+    cursor: pointer;
+} 
+
+.vertical-line{
+    position: absolute;
+    height: 25rem;
+    transform: translate(31rem, -21rem);
+    border-left: 3px solid #fff2E7;
+}
+
+.res {
+    position: absolute;
+}
+
+.result {
+    position: relative;
+    top: -19rem;
+    left: 38rem;
+    text-align: center;
+    color: #fff2E7;
+}
+
+.text {
+    display: flex;
+    position: relative;
+    font-size: 23px;
+    padding: .2rem;
+    top: -16.5rem;
+    left: 40rem;
+}
+
+.nameText, .ageText, .skillsText {
+    color: #97D4D9;
+}
+
+.resultName, .resultAge, .resultSkills {
+    color: #EFC764;
+    padding-left: 1rem;
+}
