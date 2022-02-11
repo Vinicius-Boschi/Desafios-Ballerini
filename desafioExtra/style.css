@@ -80,7 +80,6 @@ body {
 .nameText, .ageText, .skillsText {
     color: #97D4D9;
     transform: translate(0, -17rem);
-    /*margin-top: -17rem;*/
 }
 
 .resultName, .resultAge, .resultSkills {
