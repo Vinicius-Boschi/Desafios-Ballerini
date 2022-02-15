@@ -64,6 +64,10 @@ a {
 }
 
 @media (max-width: 999px) { 
+    .container {
+        width: auto;
+    }
+    
     .res {
         display: initial;
         padding: 0;

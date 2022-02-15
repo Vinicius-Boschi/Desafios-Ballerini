@@ -13,7 +13,7 @@ let projects = [
     },
 
     {
-        image: "https://portfolioviniciusboschi.netlify.app/images/ballebot.jpg",
+        image: "../paginaInicial/img/ballebot.jpg",
         name: "Landing Page",
         link: "https://ballebot.netlify.app/"
     }
