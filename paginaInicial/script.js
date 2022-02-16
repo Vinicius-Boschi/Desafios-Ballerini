@@ -16,6 +16,12 @@ let projects = [
         image: "../paginaInicial/img/ballebot.jpg",
         name: "Landing Page",
         link: "https://ballebot.netlify.app/"
+    },
+
+    {
+        image: "../paginaInicial/img/leitura.jpg",
+        name: "Leitura de Respostas",
+        link: "../leitura/index.html"
     }
 ]
 

@@ -14,9 +14,9 @@ body {
     align-items: center;
     background-color: #8896AB;
     border: 3px solid #938581;
+    box-shadow: 1px 2px 2px 2px #000;
     color: #d8e1eb;
     border-radius: .5rem;
-    width: 60%;
 }
 
 h2 {
@@ -28,10 +28,12 @@ a > img {
     width: 20%;
 }
 
-.res {
+.res {  
+    display: grid;
+    align-items: center;    
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    padding: 3rem;
-    display: flex;
+    padding: 3rem; 
     align-items: center;
     transition: all 1.5s linear;
 }
