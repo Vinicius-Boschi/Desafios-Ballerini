@@ -4,8 +4,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #0099b8;
-    color: #a2d6f9;
+    background: #29335C;
     font-family: 'Akaya Telivigala', cursive;
 }
 
@@ -13,44 +12,43 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #222e50;
+    background: #DB2B39;
     border-radius: .5rem;
     box-shadow: 1px 2px 2px 2px #000;
-    width: 60%;
-    padding: .5rem;
+    width: 40%;
+    padding: 1rem;
+    color: #BBC2E2;
 }
 
-.name, .age, .lang {
-    line-height: 2rem;
+.text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 3rem;
+    font-size: 1.5rem;
 }
 
-.txtName, .txtAge, .txtLang {
-    display: block;
-    padding: .3rem;
-    border-radius: .5rem;
+.paragraph {
+    border-radius: .3rem;
+    height: 1.3rem;
 }
 
 .button {
     height: 1.5rem;
-    background-color: #222E50;
-    border: 1px solid #02adcf;
+    background-color: #F0CEA0;
+    border: 1px solid #534D41;
     border-radius: .5rem;
-    color: #02adcf;
+    color: #a7730b;
     cursor: pointer;
 }
 
 .button:hover {
-    background-color: #0099b8;
-    color: #222e50;
+    background-color: #29335C;
+    color: #F3A712;
     transition: 1s;
 }
 
-.res { 
-    padding: 1rem;
+.res {
     font-size: 1.3rem;
-}
-
-.resName, .resAge, .resLang {
-    font-weight: bold;
-    color: #faebd7;
+    padding: 1rem;
 }

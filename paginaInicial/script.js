@@ -22,6 +22,12 @@ let projects = [
         image: "../paginaInicial/img/leitura.jpg",
         name: "Leitura de Respostas",
         link: "../leitura/index.html"
+    },
+
+    {
+        image: "../paginaInicial/img/frase.jpg",
+        name: "Contar Leitura",
+        link: "../contarLeitura/index.html"
     }
 ]
 
